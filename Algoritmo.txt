@@ -17,4 +17,8 @@ Public int adicionaDigitos(int dig){
 	return result
 	
 }
+
+int resultadoFinal = adicionaDigitos(dig)
+
+System.out.println("O seu resoltado é: " + resultadoFinal);
 	
