@@ -1,0 +1,20 @@
+System.out.println("Insira um número inteiro")
+int dig = sc.nextInt;
+
+Public int adicionaDigitos(int dig){
+	int[] numSeparados = new Array;
+	numSeparados[0] = dig.split(0);
+	numSeparados[1] = dig.split(1);
+	int result = 0;
+
+	do{
+		result = numSeparados[0] + numSeparado[1]
+		if ( result > 10 ){
+			numSeparados[0] = result.split(0)
+			numSeparados [1] = result.split(1)
+		}
+	while (result > 10)
+	return result
+	
+}
+	
